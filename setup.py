@@ -4,7 +4,7 @@ with open("README.md", "r",encoding="UTF-8") as fh:
     long_description = fh.read()
 setuptools.setup(
   name="color_change_filter",
-  version="1.0.4",
+  version="1.1.1",
   author="Chihiro senbonmatsu",
   author_email="s2222020@stu.musahino-u.ac.jp",
   description="Change color of image",
@@ -19,13 +19,17 @@ setuptools.setup(
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
   ],
+  install_requires=[
+        'opencv-python',
+        'numpy',
+    ],
   package_dir={"": "src"},
-  py_modules=["program6"],
+  py_modules=["color_change_filter"],
   packages=setuptools.find_packages(where="src"),
   Python_requires=">=3.6",
   entry_points={
     "console_scripts": [
-      "color_change_filter = program6:main",
+      "color_change_filter = color_change_filter:main",
     ],
   },
 )
