@@ -129,8 +129,7 @@ class ColorChanger():
         cv2.destroyAllWindows()
         print(f"Save {output_path}")
 
-# Example of usage
-# color_changer = ColorChanger()
-# color_changer.color_change_GUI('src/input.jpeg','output.jpeg')
-# color_changer.color_change_CUI('input.jpeg','output.jpeg',100,100,[0,255,0])
-
+def main():
+    color_changer = ColorChanger()
+if __name__ == '__main__':
+    main()
