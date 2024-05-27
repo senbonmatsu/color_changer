@@ -27,10 +27,22 @@ C.color_change_GUI("IMG_3430.jpeg","output.jpg")
 ```
 
 1. input image
+<br>
 <img src="https://drive.google.com/uc?export=view&id=1_nwdDS7z2xN5Pv4276920SV-g-nFSiHd" width="200px">
+<br>
+
 2. select color from input image
+<br>
 <img src="https://drive.google.com/uc?export=view&id=1m5X2APSrvFFYXmA_c-vhM_IishERVuyR" width="200px">
+<br>
+
 3. select color from color picker
+<br>
 <img src="https://drive.google.com/uc?export=view&id=12mXDkKKTg0R-gP-eC_zIKIdwZOjJbZ8u" width="200px">
+<br>
+
 4. output image
+<br>
 <img src="https://drive.google.com/uc?export=view&id=1dbJIIte8C4Hjbzau6bGbh359qXX7ZiSu" width="200px">
+
+
