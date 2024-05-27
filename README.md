@@ -21,13 +21,16 @@ color_change_GUI method
 
 ```
 from color_change_filter import *
+C = color_change_filter()
+C.color_change_GUI("IMG_3430.jpeg","output.jpg")
+
 ```
 
 1. input image
-![Alt text](https://drive.google.com/file/d/1_nwdDS7z2xN5Pv4276920SV-g-nFSiHd/view?usp=sharing?raw=true)
+![input image](https://drive.google.com/uc?export=view&id={1_nwdDS7z2xN5Pv4276920SV-g-nFSiHd/view?usp=sharing})
 2. select color from input image
-![Choice color](https://drive.google.com/file/d/1m5X2APSrvFFYXmA_c-vhM_IishERVuyR/view?usp=sharing?raw=true)
+![Choice color](https://drive.google.com/uc?export=view&id={1m5X2APSrvFFYXmA_c-vhM_IishERVuyR/view?usp=sharing})
 3. select color from color picker
-![Alt text](https://drive.google.com/file/d/12mXDkKKTg0R-gP-eC_zIKIdwZOjJbZ8u/view?usp=sharing?raw=true)
+![color picker](https://drive.google.com/uc?export=view&id={12mXDkKKTg0R-gP-eC_zIKIdwZOjJbZ8u/view?usp=sharing})
 4. output image
-![Alt text](https://drive.google.com/file/d/1dbJIIte8C4Hjbzau6bGbh359qXX7ZiSu/view?usp=sharing?raw=true)
+![output image](https://drive.google.com/uc?export=view&id={1dbJIIte8C4Hjbzau6bGbh359qXX7ZiSu/view?usp=sharing})
